@@ -25,6 +25,6 @@ def main(path, nameconvention):
         new_path = os.path.join(path, new_name)
 
         click.echo(f'Renaming "{file}" to "{new_name}"')
-        os.rename(old_name, new_name)
+        os.rename(old_name, new_path)
 
     click.echo('Renaming complete.')
