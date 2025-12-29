@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='mfrt',
+    name='Mass-File-Renamer-Tool',
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'mfrt = mfrt.cli:main',
+            'Mass-File-Renamer-Tool = Mass-File-Renamer-Tool.cli:main',
         ],
     },
 )
