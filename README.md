@@ -1,6 +1,6 @@
 # Mass File Renamer Tool (MFRT)
 
-A small, pragmatic CLI for bulk-renaming files in a directory using a simple naming convention.
+A small CLI for bulk-renaming files in a directory using a simple naming convention.
 It was built as a minimal, easy-to-read example using Click and standard library modules. I made this tool to gain more experience with python projects and CLI development.
 
 ## Features
